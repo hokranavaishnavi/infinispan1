@@ -1,12 +1,10 @@
 package org.example;
 
 
-import org.example.dao.Employeedao;
-
 
 public class App {
     public static void main(String[] args) {
-        Employeedao service = new Employeedao();
+        org.example.DAO.Employeedao service = new org.example.DAO.Employeedao();
         service.start();
     }
 }

@@ -59,4 +59,8 @@ public class Employee {
     public String toString() {
         return "Employee{" + "employee_id=" + employee_id + ", employee_name='" + employee_name + '\'' + ", employee_phone='" + employee_phone + '\'' + ", employee_email='" + employee_email + '\'' + '}';
     }
+
+    public void setEmployee_phonenumber(String phone) {
+        this.employee_phone =employee_phone;
+    }
 }
